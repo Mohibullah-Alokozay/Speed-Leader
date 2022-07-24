@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;   
+}
+h1 {
+    text-align: center;
+    color: #ff0000;
+    font-family: monotype corsiva;
+    font-weight: bold;
+    font-size: 30px;
+}
+h1:hover {
+    color: green;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.all_image {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.images img {
+    width: 33%;
+    height: 400px;
+}
+@media only screen and (min-width:321px) and (max-width:768px){
+    .images img {
+        width: 100%;
+        height: 300px;
+    }
+
+}

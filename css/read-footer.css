@@ -1,0 +1,36 @@
+.footer{
+    background-color: #f52c2c;
+    color: #000;
+    text-align: center;
+    font-family: "Acme";
+    padding: 2% 5%;
+    margin-top: 20px;
+
+}
+
+.footer p{
+    font-size: 1rem;
+    margin: 2% 0;
+    text-align: center;
+    color: #fff;
+}
+.footer ul{
+    list-style-type: none;
+    color: #fff;
+}
+.footer button{
+    margin:2%;
+    width: 220px;
+} 
+
+.footer-link h3{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.useful-link{
+    text-decoration: none;
+    color:#fff;
+}
+.useful-link:hover{
+    color:#000;
+}

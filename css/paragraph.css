@@ -1,0 +1,23 @@
+
+.paraph{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+  
+.highlighter{
+    width: 400px;
+    height: 30px;
+    background: rgba(255, 0, 0, 0.5);
+    position: absolute;
+  
+}
+.topbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+input{
+    margin-bottom: 5px;
+    width: 100px;
+}
